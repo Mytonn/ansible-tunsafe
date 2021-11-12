@@ -36,7 +36,7 @@
     vars:
       packages:
       - git
-      - clang-6.0
+      - clang-9.0
       - make
 
   - name: Install Required Packages with UFW
@@ -48,7 +48,7 @@
       packages:
       - git
       - ufw
-      - clang-6.0
+      - clang-9.0
       - make
 
   - name: Clone TunSafe git
